@@ -4,3 +4,6 @@
 # [submodule "ttm_vehicle_interface_ptype_app/modules/json"]
 # 	path = ttm_vehicle_interface_ptype_app/modules/json
 # 	url = https://github.com/nlohmann/json.git
+[submodule "ttm_vehicle_interface_ptype_app/modules/json"]
+	path = ttm_vehicle_interface_ptype_app/modules/json
+	url = https://github.com/nlohmann/json.git
