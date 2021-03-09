@@ -1,9 +1,0 @@
-# [submodule "ttm_vehicle_interface_ptype_app/modules/jsoncpp"]
-# 	path = ttm_vehicle_interface_ptype_app/modules/jsoncpp
-# 	url = https://github.com/open-source-parsers/jsoncpp.git
-# [submodule "ttm_vehicle_interface_ptype_app/modules/json"]
-# 	path = ttm_vehicle_interface_ptype_app/modules/json
-# 	url = https://github.com/nlohmann/json.git
-[submodule "ttm_vehicle_interface_ptype_app/modules/json"]
-	path = ttm_vehicle_interface_ptype_app/modules/json
-	url = https://github.com/nlohmann/json.git
