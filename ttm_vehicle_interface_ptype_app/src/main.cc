@@ -4,10 +4,6 @@
 #include <iostream>
 #include "logging/log.h"
 
-//#include "nlohmann/json.hpp"
-
-//using json = nlohmann::json;
-
 constexpr int32_t port_ttm_initial{54000};
 constexpr char ip_ttm[] {"127.0.0.1"};
 constexpr int16_t default_main_sleep_ms{100};
