@@ -12,8 +12,7 @@
 namespace ttmclient {
 
 class TTMclientTCP {
-public:
-
+ public:
     TTMclientTCP(int32_t port, const std::string server_ip_address);
     bool connectRequest();
     bool sendData(const char* data, size_t data_length);
@@ -21,8 +20,7 @@ public:
     void shutdownSocket();
     ~TTMclientTCP() = default;
 
-private:
-
+ private:
     int32_t socket_fd_;
     struct sockaddr_in server_addr_port_;
     int port_;
