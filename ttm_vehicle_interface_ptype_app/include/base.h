@@ -10,7 +10,7 @@
 
 #include "udp_record.h"
 #include "message_type.h"
-// #include "ParkingInfrastructureStreams.h"
+#include "parking_infrastructure_streams.h"
 
 #include "nlohmann/json.hpp"
 
@@ -31,7 +31,7 @@ class Base {
     virtual ~Base();
 
  protected:
-    int mSockfd;
+    int socket_fd_;
     struct sockaddr_in rx_address_;
     socklen_t ip_address_length_;
     struct sockaddr_in tx_address_;
