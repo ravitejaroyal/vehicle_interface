@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/client.dir/src/main.cc.o CMakeFiles/client.dir/src/ttm_client_tcp.cc.o  -o client -Wl,-rpath,/usr/local/lib modules/logging/liblogging.a /usr/local/lib/libg3log.so.2.1.2-123 -lpthread 

@@ -1,6 +1,0 @@
-/home/raviteja/codebase/work/ttm-vehicle_interface/ttm_vehicle_interface_ptype_app/build/CMakeFiles/rebuild_cache.dir
-/home/raviteja/codebase/work/ttm-vehicle_interface/ttm_vehicle_interface_ptype_app/build/CMakeFiles/client.dir
-/home/raviteja/codebase/work/ttm-vehicle_interface/ttm_vehicle_interface_ptype_app/build/CMakeFiles/edit_cache.dir
-/home/raviteja/codebase/work/ttm-vehicle_interface/ttm_vehicle_interface_ptype_app/build/modules/logging/CMakeFiles/rebuild_cache.dir
-/home/raviteja/codebase/work/ttm-vehicle_interface/ttm_vehicle_interface_ptype_app/build/modules/logging/CMakeFiles/logging.dir
-/home/raviteja/codebase/work/ttm-vehicle_interface/ttm_vehicle_interface_ptype_app/build/modules/logging/CMakeFiles/edit_cache.dir
