@@ -1,7 +1,4 @@
-/// @author     John Brooks (jbroo163@ford.com)
-/// @brief      g3log library wrapper 
-/// @date       02/15/2021
-/// @copyright  Ford Motor Company (c) 2019-2021
+
 
 #pragma once
 
