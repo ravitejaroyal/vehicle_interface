@@ -13,6 +13,7 @@ bool TtmData::init(int rx_port, const std::string tx_address, int tx_port) {
     BaseSocket::init(rx_port, tx_address, tx_port);
 
     rx_thread_ = std::thread(&TtmData::receiveTtmData, this);
+    //std::thread  rx_thread_(&TtmData::receiveTtmData, this);
 
     rx_thread_native_handle_ = rx_thread_.native_handle();
     rx_thread_.detach();
