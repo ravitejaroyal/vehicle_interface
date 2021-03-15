@@ -65,4 +65,23 @@ int main(int argc, char** argv) {
         LOG(DEBUG) << "TTM init fail: " << std::endl;
         return -1;
     }
+    
+           // important -- in lieu of joining other threads here, just keep main thread active indefinitely
+    while(1)
+    {
+        if (exitFlag)
+        {
+            std::cout << "shutdown" << std::endl;
+            ttm.shutdown();
+            udp.shutdown();
+            // set LED color back to red
+            //led.setColor(0xff,0x00);
+            //LED::msExecDelay(100);
+            break;
+        }
+
+        // sleeping turns main into a waitable thread instead of runnable
+        // (runnable consumes a CPU core, waitable does not)
+        std::this_thread::sleep_for(std::chrono::milliseconds(default_main_sleep_ms));
+    }
 }
