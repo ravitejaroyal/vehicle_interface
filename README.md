@@ -1,7 +1,7 @@
 # ttm-vehicle_interface
 
 * Branch is rebased off of latest `develop`
-- [ ] YES
+- [x] YES
 
 - [ ] NO
 
